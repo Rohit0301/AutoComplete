@@ -1,0 +1,29 @@
+.chip {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border-radius: 1rem;
+    background-color: rgb(231, 231, 231);
+}
+
+.selected-chip {
+    border: 1px solid var(--primary-color);
+}
+
+.chip-logo {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+
+.chip-title {
+    font-size: 12px;
+    margin: 0 8px 0 4px;
+    font-family: sans-serif;
+}
+
+.chip-close-btn {
+    cursor: pointer;
+    padding-right: 8px;
+}
